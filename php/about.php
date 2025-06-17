@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About | BMIHealthCare</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="../css/about.css" />
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.php" class="logo">BMI<span>HealthCare</span></a>
+            <div class="nav-links">
+                <a href="index.php">Home</a>
+                <a href="index.php#knowledge">Factors</a>
+                <a href="dashboard.php">Dashboard</a>
+                <a href="about.php" class="active">About</a>
+                
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class=bmilogo><img src="../image/BmiLogo.png"  alt="About Us Image"  class="about-us-image"/></section>
+        <section class="about-us-section">
+            
+        <div class="about-us-imageII-container">
+                  <img class="about-us-imageII" src="../image/Doctor.png" alt="About Us Image">
+                </div>
+            <div class="about-us-text">
+                <h1>About Us</h1>
+                
+                <p>
+                     BMIHealthCare is a comprehensive health platform that visualizes the relationship 
+                     between Body Mass Index (BMI) and many health variables, giving users useful insights
+                     into their health.  Our user-friendly dashboard allows users to monitor their BMI and 
+                     its correlation with vital indicators of health such as waist circumference, blood glucose, 
+                     uric acid, and others.  BMIHealthCare uses data-driven visualizations to help people understand 
+                     their health measurements, make informed decisions, and take proactive steps to maintain a 
+                     healthy lifestyle. BMIHealthCare is your reliable companion in reaching and maintaining optimal health.
+                </p>
+            </div>
+        </section>
+
+        <section class="mission-vision-container">
+            <article class="card mission">
+                <img src="../image/health-check.png"alt="Mission image placeholder" />
+                <h2>Mission</h2>
+                <p>
+                    Our mission is to provide innovative health solutions and promote well-being with
+                    integrity, care, and excellence in service.
+                </p>
+            </article>
+            <article class="card vision">
+                <img src="../image/medical-team.png"alt="Vision image placeholder" />
+                <h2>Vision</h2>
+                <p>
+                    Our vision is to be healthcare organizations' most trusted partner, providing them with cutting-edge technology and data-driven solutions that improve patient outcomes,
+                    maximize efficiency, and develop healthier communities—all on a foundation of innovation, integrity, and shared purpose.
+                </p>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+    <div class="footer-content">
+        <div class="footer-main">
+            <div class="footer-links">
+                <a href="index.php">Home</a>
+                <a href="index.php#knowledge">Factors</a>
+                <a href="dashboard.php">Dashboard</a>
+                <a href="about.php">About</a>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-contact">
+                <p>Contact Us</p>
+                <p>Phone: +6011-39860847</p>
+                <p>Email: 2022883044@student.uitm.edu.my</p>
+            </div>
+        </div>
+        <p>&copy; 2023 DazSama Analytics. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
